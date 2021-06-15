@@ -41,10 +41,6 @@ Master Template script written in Python3
 1. Coordinating with Iman(send recent example of cp and ft data) and Chacha
 2. Data visualization
 
-## Modification to source data:
-1. renamed 168H folder to Q0100701_T168
-2. renamed 0H folder to Q0100701_T0
-
 ## Appendix:
 1. To fetch latest GIT:
     ```
