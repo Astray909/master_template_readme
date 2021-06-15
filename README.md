@@ -38,7 +38,7 @@ Master Template script written in Python3
 11. CSV to db converter for FT limits
 12. Updated individual interval test data features
 ### Planned:
-1. Coordinating with Iman(send recent example of cp and ft data) and Chacha
+1. Data formatting
 2. Data visualization
 
 ## Appendix:
