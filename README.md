@@ -20,7 +20,7 @@ Master Template script written in Python3
 1. Click on Import Raw Data
 2. Inside the popup window, navigate to the directory containing Txxx folders
 3. IMPORTANT: Must analyze T0 at least once to establish a baseline for FT comparisons
-4. Select a Txxx folder and the script will do the rest
+4. Select a Txxx raw data file and the script will do the rest
 5. Script will output outlier result in 3_interval_test folder and retest request in 6_paperwork folder
 
 ## Features:
@@ -38,7 +38,7 @@ Master Template script written in Python3
 11. CSV to db converter for FT limits
 12. Updated individual interval test data features
 ### Planned:
-1. Data formatting
+1. Coordinating with Iman(send recent example of cp and ft data) and Chacha
 2. Data visualization
 
 ## Appendix:
