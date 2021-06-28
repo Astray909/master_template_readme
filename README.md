@@ -23,6 +23,19 @@ Master Template script written in Python3
 4. Select a Txxx raw data file and the script will do the rest
 5. Script will output outlier result in 3_interval_test folder and retest request in 6_paperwork folder
 
+## Add new product procedure:
+1. Locate and navigate to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis` directory
+2. Open `Rel FT limits.csv` file with Microsoft Excel or any text editor
+3. Add new product information (note that in Microsoft Excel formatting might be altered automatically when '-' is detected)
+4. Locate and navigate to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis\master_template\SupportingModules` directory
+5. Double click on convert.bat or run `python convert.py` under anaconda prompt
+6. Select `Rel FT limits.csv` file
+7. Navigate back to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis\master_template\SupportingModules` directory
+8. Copy `products.db` file
+9. Navigate to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis\master_template` directory
+10. Paste and overwrite
+11. Product info db is now up to date
+
 ## Features:
 ### Currently working:
 1. Extended GUI
