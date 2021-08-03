@@ -21,7 +21,13 @@ Master Template script written in Python3
 2. Inside the popup window, navigate to the directory containing Txxx folders
 3. IMPORTANT: Must analyze T0 at least once to establish a baseline for FT comparisons
 4. Select a Txxx raw data file and the script will do the rest
-5. Script will output outlier result in 3_interval_test folder and retest request in 6_paperwork folder
+5. Script will output outlier result in 2_processed_data folder and retest request in 6_paperwork folder
+
+## Parameter shift charts procedure:
+1. Click on Line Plot
+2. Inside the popup window, navigate to 2_processed_data directory
+3. Start from import the processed csv files as instructed by the script
+4. Output is stored in 2_processed_data folder as a .xlsx file
 
 ## Add new product procedure:
 1. Locate and navigate to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis` directory
