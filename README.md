@@ -71,3 +71,7 @@ Master Template script written in Python3
     ```
     git fetch --all; git reset --hard origin; git pull origin main
     ```
+2. To build exe:
+    ```
+    pyinstaller --onefile gui.py --icon='directory_to_app'\app_icon\MasterTemplate.ico
+    ```
