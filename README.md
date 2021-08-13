@@ -1,3 +1,4 @@
+
 # Master Template
 **[Justin Huang](https://github.com/Astray909)**
 
@@ -18,16 +19,27 @@ Master Template script written in Python3
 
 ## Interval test procedure:
 1. Click on Import Raw Data
+2. Inside the popup window, navigate to and select the root directory of a test
+3. The script will output results in 6_paperwork folder
+
+## Interval test procedure (individual csv):
+1. Click on Import Raw Data
 2. Inside the popup window, navigate to the directory containing Txxx folders
 3. IMPORTANT: Must analyze T0 at least once to establish a baseline for FT comparisons
 4. Select a Txxx raw data file and the script will do the rest
-5. Script will output outlier result in 2_processed_data folder and retest request in 6_paperwork folder
+5. Script will output outlier results in 6_paperwork folder
 
 ## Parameter shift charts procedure:
 1. Click on Line Plot
 2. Inside the popup window, navigate to 2_processed_data directory
 3. Start from import the processed csv files as instructed by the script
 4. Output is stored in 2_processed_data folder as a .xlsx file
+
+## Batch analyzing procedure:
+1. Click on *One Click*
+2. Select the folder which contains all the test lots
+3. Follow on screen popups for additional inputs
+4. Results will be in 6_paperwork folder for each test lot
 
 ## Add new product procedure:
 1. Locate and navigate to `X:\PLC\Prod Docs\Qual\qrw_script\dataAnalysis` directory
@@ -56,9 +68,9 @@ Master Template script written in Python3
 10. Auto removal of temporary files
 11. CSV to db converter for FT limits
 12. Updated individual interval test data features
+13. Data visualization
 ### Planned:
 1. Coordinating with Iman(send recent example of cp and ft data) and Chacha
-2. Data visualization
 
 ## Appendix:
 1. To fetch latest GIT:
